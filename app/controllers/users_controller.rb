@@ -18,6 +18,12 @@ class UsersController < ApplicationController
     render 'new'
   end
 
+  def destroy
+    user = User.find(params[:id])
+    user.destroy
+    flash.now[:notice] = "#{user.name} was removed."
+  end
+
   def new
     @user = User.new
   end
