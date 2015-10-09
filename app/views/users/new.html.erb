@@ -1,2 +1,9 @@
-<h1>Users#new</h1>
-<p>Find me in app/views/users/new.html.erb</p>
+<div class="text-center"
+  <h1>Create new Users</h1>
+</div>
+<div>
+  <%= form_for(@user) do |f| %>
+    <%= render 'create_fields', f: f %>
+    <%= f.submit "Create a new User", class: "btn btn-;arge btn=primary" %>
+  <% end %>
+</div>
