@@ -22,3 +22,7 @@ User.find_or_create_by(name: 'Fred Black', email: 'freddy@superior_construction.
 User.find_or_create_by(name: 'Jill McDuff', email: 'jill.mcDuff@superior_construction.com')
 User.find_or_create_by(name: 'Jill Henry', email: 'jill_number_2@superior_construction.com')
 User.find_or_create_by(name: 'Janine Hill', email: 'j.hill@superior_construction.com')
+
+Project.find_or_create_by(name: "Donna's Patio", description: "Donna is requesting a new patio")
+Project.find_or_create_by(name: "Jake's House", description: "A ranch style house with a 2 door garage")
+Project.find_or_create_by(name: "Phils Moving Van", description: "Phil needs a custom van to move his stuff back to Ohio")
