@@ -16,4 +16,4 @@ $ rake db:seed
 $ rails s
 ```
 ### Notes
-Document how you solved each section.
+Document how you solved each section in the requirements list.
